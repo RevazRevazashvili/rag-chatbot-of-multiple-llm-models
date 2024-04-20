@@ -1,0 +1,8 @@
+sentence_transformers
+streamlit
+langchain_community
+langchain
+pinecone-client
+streamlit_chat
+PyPDF2
+spacy
