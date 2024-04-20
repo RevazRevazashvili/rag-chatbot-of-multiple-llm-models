@@ -5,7 +5,7 @@ import os
 from langchain_community.llms import Ollama
 
 
-PINECONE_API_KEY = "67b6cd6e-8c69-4a19-98e6-88d0256861d4"
+PINECONE_API_KEY = "pinecone api here"
 os.environ['PINECONE_API_KEY'] = PINECONE_API_KEY
 
 model = SentenceTransformer('all-MiniLM-L6-v2')
@@ -15,7 +15,7 @@ pc = pinecone.Pinecone(
     environment='gcp-starter'
 )
 
-index = pc.Index('chat', host="https://chat-8fjpevv.svc.aped-4627-b74a.pinecone.io")
+index = pc.Index('chat', host="your index host here")
 
 
 def find_match(input):

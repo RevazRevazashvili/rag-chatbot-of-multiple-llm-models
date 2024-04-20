@@ -6,7 +6,7 @@ import os
 from langchain_community.vectorstores import Pinecone
 import document_processing
 
-os.environ['PINECONE_API_KEY'] = '25607a32-7de3-475e-90c1-49b65378550f'
+os.environ['PINECONE_API_KEY'] = 'your pinecone api here'
 
 
 # function to load pdf document
